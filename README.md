@@ -21,23 +21,17 @@ Bu çalışma, Nesne Yönelimli Programlamanın (OOP) temel mimarisini dört far
 Proje, her dilin kendi klasöründe, tutarlı bir paket yapısını takip eder:
 
 Çalıştırma Talimatları:
+Hepsi ana klasörden çalıştırılmalı.
 
-CSharp için: 
-cd CSharp/KuantumKaosYonetimi
-dotnet run
+CSharp             dotnet run --project CSharp/KuantumKaosYonetimi
 
-Python için:
+-
+Python             py -m Python.KuantumKaosYonetimi
 
-cd Python
-py -m KuantumKaosYonetimi
+-
+Java derleme          javac Java/KuantumKaosYonetimi/*.java
+java çalıştırma          java -cp Java KuantumKaosYonetimi.Main
 
-Java için:
+-
+Javascript           node Javascript/KuantumKaosYonetimi/main.js
 
-cd Java 
-javac KuantumKaosYonetimi/*.java
-java KuantumKaosYonetimi.Main
-
-Javascript için:
-
-cd Javascript/KuantumKaosYonetimi
-node main.js
