@@ -6,13 +6,13 @@ Bu proje, "Omega Sektörü Kuantum Veri Ambarı"nın dijital yönetimini simüle
 
 Bu çalışma, Nesne Yönelimli Programlamanın (OOP) temel mimarisini dört farklı dilde (**C#, Java, Python, JavaScript**) uygulamayı göstermektedir.
 
-| OOP Prensibi | Uygulama |
-| :--- | :--- |
-| **Kalıtım (Inheritance)** | Tüm nesneler (`VeriPaketi`, `AntiMadde`, vb.) `KuantumNesnesi` **Abstract Class**'ından türetilmiştir. |
-| **Kapsülleme (Encapsulation)** | `Stabilite` özelliği, değerinin 0 ile 100 arasında kalmasını garanti eden `setter` metotları ile korunur. |
-| **Çok Biçimlilik (Polymorphism)** | Tüm nesnelerin, listedeyken bile farklı tepkiler vermesini sağlayan `AnalizEt()` metodu. |
-| **Arayüz (Interface)** | Kritik nesneler için `IKritik` arayüzü ve **Interface Segregation** prensibi kullanılmıştır. |
-| **Özel Hata Yönetimi** | `KuantumCokusuException` ile Game Over mekaniği sağlanmıştır. |
+OOP Prensibi 
+
+**Kalıtım (Inheritance)** | Tüm nesneler (`VeriPaketi`, `AntiMadde`, vb.) `KuantumNesnesi` **Abstract Class**'ından türetilmiştir. 
+ **Kapsülleme (Encapsulation)** | `Stabilite` özelliği, değerinin 0 ile 100 arasında kalmasını garanti eden `setter` metotları ile korunur. 
+**Çok Biçimlilik (Polymorphism)** | Tüm nesnelerin, listedeyken bile farklı tepkiler vermesini sağlayan `AnalizEt()` metodu. 
+ **Arayüz (Interface)** | Kritik nesneler için `IKritik` arayüzü ve **Interface Segregation** prensibi kullanılmıştır. 
+**Özel Hata Yönetimi** | `KuantumCokusuException` ile Game Over mekaniği sağlanmıştır. 
 
 ---
 
