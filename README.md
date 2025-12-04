@@ -2,11 +2,9 @@
 
 Bu proje, "Omega Sektörü Kuantum Veri Ambarı"nın dijital yönetimini simüle etmek amacıyla geliştirilmiştir. Temel amaç, depolanan maddelerin (Veri Paketi, Karanlık Madde, Anti Madde) **Stabilite** seviyelerini yönetmek ve Kuantum Çöküşü (Game Over) yaşanmadan günü tamamlamaktır.
 
-##  Proje Amacı ve Uygulanan OOP Prensipleri
+--
 
 Bu çalışma, Nesne Yönelimli Programlamanın (OOP) temel mimarisini dört farklı dilde (**C#, Java, Python, JavaScript**) uygulamayı göstermektedir.
-
-OOP Prensibi 
 
 **Kalıtım (Inheritance)**  Tüm nesneler (`VeriPaketi`, `AntiMadde`, vb.) `KuantumNesnesi` **Abstract Class**'ından türetilmiştir. 
 
@@ -18,9 +16,7 @@ OOP Prensibi
  
 **Özel Hata Yönetimi**  `KuantumCokusuException` ile Game Over mekaniği sağlanmıştır. 
 
----
-
-##  Klasör Yapısı
+--
 
 Proje, her dilin kendi klasöründe, tutarlı bir paket yapısını takip eder:
 
