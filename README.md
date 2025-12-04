@@ -23,15 +23,13 @@ Proje, her dilin kendi klasöründe, tutarlı bir paket yapısını takip eder:
 Çalıştırma Talimatları:
 Hepsi ana klasörden çalıştırılmalı.
 
-CSharp             dotnet run --project CSharp/KuantumKaosYonetimi
+- CSharp             dotnet run --project CSharp/KuantumKaosYonetimi
 
--
-Python             py -m Python.KuantumKaosYonetimi
 
--
-Java derleme          javac Java/KuantumKaosYonetimi/*.java
-java çalıştırma          java -cp Java KuantumKaosYonetimi.Main
+- Python             py -m Python.KuantumKaosYonetimi
 
--
-Javascript           node Javascript/KuantumKaosYonetimi/main.js
+- Java derleme          javac Java/KuantumKaosYonetimi/*.java
+- java çalıştırma          java -cp Java KuantumKaosYonetimi.Main
+
+- Javascript           node Javascript/KuantumKaosYonetimi/main.js
 
